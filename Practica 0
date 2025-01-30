@@ -1,0 +1,127 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN2JQzjFH9ndFhw3Rq5qcsB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Manuel-Navarro-Barrera/Probabilidad_y_Estadistica/blob/main/Practica%200\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 12\n",
+        "b = 25\n",
+        "if a > b:\n",
+        "    print(\"a es mayor que b\")\n",
+        "else:\n",
+        "    print(\"b es mayor que a\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "7RgyubLV3uyf",
+        "outputId": "2d6d8b56-4114-467d-e80a-158dea70f398"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b es mayor que a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "#Probabilidad y Estadistica\n",
+        "\n",
+        "## Unidad 1\n",
+        "\n",
+        "### Grupo **2Z**\n",
+        "\n",
+        "### Practica 0: Introduccion a Python\n",
+        "\n",
+        "Alumno: Manuel Alejandro Navarro Barrera\n",
+        "\n",
+        "Docente: Dr. Jose Gabriel Rodriguez Arrivas"
+      ],
+      "metadata": {
+        "id": "IEGVGqEs6anm"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#esto es un comentario\n",
+        "for i in range(10):\n",
+        "    print(i)\n",
+        "    print(\"hola\", i)\n",
+        "print(\"Fuera del for\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "qyxObxkX4zya",
+        "outputId": "d7d8ab52-3543-4422-a397-e41bb2c7e320"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n",
+            "hola 0\n",
+            "1\n",
+            "hola 1\n",
+            "2\n",
+            "hola 2\n",
+            "3\n",
+            "hola 3\n",
+            "4\n",
+            "hola 4\n",
+            "5\n",
+            "hola 5\n",
+            "6\n",
+            "hola 6\n",
+            "7\n",
+            "hola 7\n",
+            "8\n",
+            "hola 8\n",
+            "9\n",
+            "hola 9\n",
+            "Fuera del for\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
